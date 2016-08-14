@@ -1,0 +1,87 @@
+body {
+	background-color: #f6f6f6;
+	padding: 0;
+	margin: 0;
+}
+
+.heading {
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+.title-bar {
+	height: 15px;
+	font-size: 20px;
+	font-family: "Open Sans";
+	text-align: center;
+	color: #767676;
+	background-color: white;
+	padding-top: 10px;
+}
+
+.navigation {
+	background-color: white;
+	height: 15px;
+	font-family: "Open Sans";
+	border-bottom: 1px solid #d3d3d3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.nav-button {
+	font-size: 15px;
+	color: #767676;
+	text-align: center;
+	margin-left: 15px;
+	float: left;
+}
+
+.nav-button:hover {
+	color: #433ea0;
+	background-color: white;
+}
+
+.page {
+	background-color: white;
+	width: 60vw;
+	margin-left: 20vw;
+	margin-top: 100px;
+	position: absolute;
+	height: 1000px;
+	margin-bottom: 40px;
+	border: 1px solid #d3d3d3;
+}
+
+.inner-page {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.typed {
+	display: inline-block;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
