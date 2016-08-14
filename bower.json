@@ -1,0 +1,27 @@
+{
+  "name": "Paulinas Place",
+  "authors": [
+    "Paulina Levit <paulinalevit@nyu.edu>"
+  ],
+  "description": "Resume Site",
+  "main": "index.html",
+  "keywords": [
+    "paulina",
+    "levit",
+    "resume",
+    "site"
+  ],
+  "license": "MIT",
+  "homepage": "paulinalevit.me",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "typed.js": "^1.1.4"
+  }
+}
